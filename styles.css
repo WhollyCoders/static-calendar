@@ -6,24 +6,19 @@ html{
   margin: 2rem auto;
 }
 .calendar-label{
-  font-size: 2rem;
-}
-.calendar-label, .calendar-days{
   display: flex;
   justify-content: center;
+  font-size: 2rem;
+}
+.label, .cal-day{
+  padding: 1rem 1.28rem;
+  text-transform: capitalize;
 }
 .body table{
   margin: 0 auto;
   border-collapse: collapse;
 }
-.label, .cal-day{
-  padding: 1rem 1.28rem;
-  text-align: center;
-  text-transform: capitalize;
-  /* border: 1px solid #000; */
-}
 .cal-day{
-  /* border: 1px solid #000; */
   background-color: #000;
   color: #fff;
 }
