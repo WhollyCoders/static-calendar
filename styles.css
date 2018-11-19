@@ -4,15 +4,19 @@ html{
 .container{
   width: 500px;
   margin: 2rem auto;
+  text-transform: capitalize;
 }
 .calendar-label{
   display: flex;
   justify-content: center;
   font-size: 2rem;
+  font-family: 'arial black', monospace;
 }
-.label, .cal-day{
-  padding: 1rem 1.28rem;
-  text-transform: capitalize;
+.label{
+  padding: 1rem 0.5rem;
+}
+.cal-day{
+  padding: 1rem 1.3rem;
 }
 .body table{
   margin: 0 auto;
